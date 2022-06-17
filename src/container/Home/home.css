@@ -1,0 +1,84 @@
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999d9e;
+}
+.helloString{
+    font-size: 25px ;
+    color: white;
+}
+.home__coffee--img{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+
+.home__why{
+    position: absolute;
+    left: 50px;
+    bottom: 75px;
+    color: white;
+    font-size: 18px;
+}
+.home__why--button{
+    border-radius: 50%;
+    border: 1px solid white;
+    width:  60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    z-index: 999;
+
+}
+.home__why--button:hover{
+    background: #3489e5;
+}
+.home__link{
+    color: #3489e5;
+    text-decoration: none;
+}
+.home__blur{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+.why{
+    display: none;
+    width:  650px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgba(122, 122, 122, 0.61);
+    background: #545657;
+    color: rgb(235, 233, 233);
+    font-size: 20px;
+    z-index: 999;
+}
+.cross{
+    border-radius: 50%;
+    border: 1px solid white;
+    width:  50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background: #3489e5;
+    position: absolute;
+    bottom: 25px;
+    right:  35px;
+}
