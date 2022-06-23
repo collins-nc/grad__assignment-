@@ -1,7 +1,7 @@
-export {default as  Cpp} from "./cpp.png";
-export {default as  Css} from "./css.png";
-export {default as  Git} from "./git.png";
-export {default as  Html} from "./html.png";
+export {default  as Cpp} from "./cpp.png";
+export {default  as Css} from "./css.png";
+export {default  as Git} from "./git.png";
+export {default  as Html} from "./html.png";
 export { default as Jq } from "./jq.png";
 export { default as Js } from "./js.png";
 export { default as Mongodb } from "./mongodb.png";
